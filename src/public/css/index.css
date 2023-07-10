@@ -1,0 +1,170 @@
+.contact-form__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+}
+
+.contact-form__heading {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.h-adr {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.form__group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form__group1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+
+}
+
+.form__label--item {
+    font-weight: bold;
+}
+
+.form__label--required {
+    color: red;
+}
+
+.form__error {
+    height: 20px;
+    color: #ff0000;
+    text-align: left;
+}
+
+.form__group-title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.form__group-content {
+    width: 600px;
+    margin-left: 150px;
+}
+
+.form__input--text1 input {
+    padding: 10px;
+    margin-left: 0px;
+    width: 200px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    appearance: none;
+}
+
+.form__input {
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+.form__input--graytext1 {
+    color: #999;
+    width: 210px;
+    text-align: start;
+    margin-left: 15px;
+}
+.form__input--graytext {
+    color: #999;
+    width: 300px;
+    text-align: start;
+    margin-left: 15px;
+}
+
+.form__group-content3 {
+    width: 600px;
+    margin-left: 120px;
+}
+
+.radio {
+    display: inline-block;
+}
+
+.radio-input {
+    appearance: none;
+    position: absolute;
+}
+
+.radio-text::before {
+    content: '';
+    display: block;
+    border-radius: 50%;
+    border: 1px solid #999;
+    width: 30px;
+    height: 30px;
+}
+
+.radio-input:checked+.radio-text::after {
+    content: '';
+    position: absolute;
+    left: 10px;
+    display: block;
+    border-radius: 50%;
+    width: 9px;
+    height: 9px;
+    background-color: #000;
+}
+
+.radio-text {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.p-country-name {
+    display: none;
+}
+
+
+.form__input--text input,
+.form__input--textarea textarea {
+    padding: 10px;
+    width: 600px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    appearance: none;
+}
+
+/*.form__input--text input {
+    height: 20px;
+}
+*/
+
+.form__input--text2 input {
+    padding: 10px;
+    width: 500px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    appearance: none;
+    align-items: left;
+    
+}
+
+.form__input--textarea textarea {
+    height: 180px;
+}
+
+.form__button {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.form__button-submit {
+    padding: 10px;
+    width: 130px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
